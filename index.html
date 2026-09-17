@@ -6,21 +6,22 @@
 <title>40 consignes de cours sur l'IA · AI Pedagogy Project en français</title>
 <meta name="description" content="Adaptation française non officielle des 40 consignes de cours du AI Pedagogy Project (metaLAB at Harvard). Recherche dans tous les textes, filtres par thème, discipline, outil et compétence. Licence CC BY-NC-SA 4.0.">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
-<!-- Remplacer https://VOTRE-DOMAINE/ par l'URL publique du dossier une fois en ligne (LinkedIn exige une URL absolue). -->
 <meta property="og:type" content="website">
 <meta property="og:locale" content="fr_FR">
-<meta property="og:site_name" content="Consignes IA · AI Pedagogy Project">
+<meta property="og:site_name" content="Rochane Kherbouche">
+<meta name="author" content="Rochane Kherbouche">
+<meta name="theme-color" content="#1d3db0">
 <meta property="og:title" content="40 consignes de cours pour enseigner avec l'IA">
 <meta property="og:description" content="Adaptation française non officielle des 40 consignes du AI Pedagogy Project (metaLAB at Harvard). Recherche plein texte, filtres par thème, discipline, outil et compétence. CC BY-NC-SA 4.0.">
-<meta property="og:url" content="https://VOTRE-DOMAINE/index.html">
-<meta property="og:image" content="https://VOTRE-DOMAINE/og-image.png">
+<meta property="og:url" content="https://consignes-ia.rochane.fr/">
+<meta property="og:image" content="https://consignes-ia.rochane.fr/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="40 consignes de cours pour enseigner avec l'IA, AI Pedagogy Project en français">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="40 consignes de cours pour enseigner avec l'IA">
 <meta name="twitter:description" content="Adaptation française non officielle des 40 consignes du AI Pedagogy Project. Recherche et filtres. CC BY-NC-SA 4.0.">
-<meta name="twitter:image" content="https://VOTRE-DOMAINE/og-image.png">
+<meta name="twitter:image" content="https://consignes-ia.rochane.fr/og-image.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Instrument+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -276,6 +277,8 @@ a:hover{color:var(--accent-hover)}
 .foot{border-top:1px solid var(--line);background:var(--off);padding:2.6rem 0 3rem;font-size:var(--fs-body-s);color:var(--muted)}
 .foot .slabel{margin-bottom:1rem}
 .foot p{margin:0 0 0.7rem;max-width:var(--prose-max);text-wrap:pretty}
+.foot .sign{margin-top:1.6rem;padding-top:1.2rem;border-top:1px solid var(--line);color:var(--text)}
+.foot .sign strong{font-weight:600}
 .foot .fine{font-family:var(--font-mono);font-size:0.72rem;letter-spacing:0.02em;color:var(--muted2);margin-top:1.2rem}
 
 @media print{[data-print-hide]{display:none !important}@page{size:A4;margin:14mm}}
@@ -298,6 +301,7 @@ a:hover{color:var(--accent-hover)}
     <p class="slabel">Licence</p>
     <p>Adaptation française non officielle des consignes de cours du <a href="https://aipedagogy.org/" target="_blank" rel="noopener">AI Pedagogy Project</a>, metaLAB (at) Harvard, Berkman Klein Center. Textes originaux sous licence <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a>, adaptation diffusée sous la même licence.</p>
     <p>Traduction réalisée avec l'IA, relue et corrigée. Les auteur·rices, les références et la licence d'origine sont conservés. Cette adaptation n'a pas été validée par les auteur·rices. Des erreurs peuvent subsister : signalez le numéro de la fiche et le passage concerné.</p>
+    <p class="sign">© 2026 <a href="https://ia.rochane.fr" target="_blank" rel="noopener"><strong>Rochane Kherbouche</strong></a> · Technopédagogue &amp; Ambassadeur IA · <a href="https://ia.rochane.fr" target="_blank" rel="noopener">ia.rochane.fr ↗</a> · <a href="https://www.linkedin.com/in/rochanekherbouche" target="_blank" rel="noopener">LinkedIn ↗</a></p>
     <p class="fine">Les outils nommés dans les fiches sont ceux des originaux. Toute activité fonctionne avec un autre chatbot fondé sur un grand modèle de langage : Claude, Le Chat, Gemini, Copilot, ChatGPT.</p>
   </div>
 </footer>
@@ -355,6 +359,7 @@ function viewHome() {
   app.innerHTML = `
   <section class="hero"><div class="wrap">
     <div class="copy">
+      <div><span class="k">Nom</span><span class="v"><a href="https://ia.rochane.fr" target="_blank" rel="noopener">Kherbouche Rochane</a></span></div>
       <div><span class="k">Source</span><span class="v">AI Pedagogy Project · metaLAB (at) Harvard</span></div>
       <div><span class="k">Corpus</span><span class="v">${F.length} consignes</span></div>
       <div><span class="k">Licence</span><span class="v">CC BY-NC-SA 4.0</span></div>
